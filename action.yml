@@ -8,4 +8,4 @@ inputs:
 outputs:
   time: # id of output
     description: 'The time we greeted you'
-run: echo Hello ${{ github.event.inputs.who-to-greet }}
+run: echo Hello ${{ inputs.who-to-greet }}
